@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6DD388208760CE005E7A99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD387208760CE005E7A99 /* main.swift */; };
+		BE6DD38F208762E4005E7A99 /* PessoaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD38E208762E4005E7A99 /* PessoaProtocol.swift */; };
+		BE6DD39120876454005E7A99 /* ProfissionalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD39020876454005E7A99 /* ProfissionalProtocol.swift */; };
+		BE6DD393208764F4005E7A99 /* Arquiteto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD392208764F4005E7A99 /* Arquiteto.swift */; };
+		BE6DD39520876583005E7A99 /* Engenheiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD39420876583005E7A99 /* Engenheiro.swift */; };
+		BE6DD39E20876881005E7A99 /* Predio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD39D20876881005E7A99 /* Predio.swift */; };
+		BE6DD3A02087694E005E7A99 /* Empreiteira.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD39F2087694E005E7A99 /* Empreiteira.swift */; };
+		BE6DD3A220876B17005E7A99 /* Empregado.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3A120876B17005E7A99 /* Empregado.swift */; };
+		BE6DD3A520876B93005E7A99 /* EmpregadoEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3A420876B93005E7A99 /* EmpregadoEnum.swift */; };
+		BE6DD3A720876CF0005E7A99 /* HorasPorDiaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3A620876CF0005E7A99 /* HorasPorDiaEnum.swift */; };
+		BE6DD3AB20877B9E005E7A99 /* FaseConstrucaoEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3AA20877B9E005E7A99 /* FaseConstrucaoEnum.swift */; };
+		BE6DD3AD20877C32005E7A99 /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3AC20877C32005E7A99 /* Vendedor.swift */; };
+		BE6DD3AF20877E15005E7A99 /* Apartamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3AE20877E15005E7A99 /* Apartamento.swift */; };
+		BE6DD3B220878060005E7A99 /* Venda.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3B120878060005E7A99 /* Venda.swift */; };
+		BE6DD3B52087D240005E7A99 /* Cliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3B42087D240005E7A99 /* Cliente.swift */; };
+		BE6DD3B72087D8B6005E7A99 /* SalarioPorHoraEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6DD3B62087D8B6005E7A99 /* SalarioPorHoraEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE6DD382208760CE005E7A99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE6DD384208760CE005E7A99 /* ConstrutoraPredios */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConstrutoraPredios; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6DD387208760CE005E7A99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BE6DD38E208762E4005E7A99 /* PessoaProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PessoaProtocol.swift; sourceTree = "<group>"; };
+		BE6DD39020876454005E7A99 /* ProfissionalProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfissionalProtocol.swift; sourceTree = "<group>"; };
+		BE6DD392208764F4005E7A99 /* Arquiteto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arquiteto.swift; sourceTree = "<group>"; };
+		BE6DD39420876583005E7A99 /* Engenheiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engenheiro.swift; sourceTree = "<group>"; };
+		BE6DD39D20876881005E7A99 /* Predio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predio.swift; sourceTree = "<group>"; };
+		BE6DD39F2087694E005E7A99 /* Empreiteira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empreiteira.swift; sourceTree = "<group>"; };
+		BE6DD3A120876B17005E7A99 /* Empregado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empregado.swift; sourceTree = "<group>"; };
+		BE6DD3A420876B93005E7A99 /* EmpregadoEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpregadoEnum.swift; sourceTree = "<group>"; };
+		BE6DD3A620876CF0005E7A99 /* HorasPorDiaEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorasPorDiaEnum.swift; sourceTree = "<group>"; };
+		BE6DD3AA20877B9E005E7A99 /* FaseConstrucaoEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaseConstrucaoEnum.swift; sourceTree = "<group>"; };
+		BE6DD3AC20877C32005E7A99 /* Vendedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
+		BE6DD3AE20877E15005E7A99 /* Apartamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartamento.swift; sourceTree = "<group>"; };
+		BE6DD3B120878060005E7A99 /* Venda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venda.swift; sourceTree = "<group>"; };
+		BE6DD3B42087D240005E7A99 /* Cliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cliente.swift; sourceTree = "<group>"; };
+		BE6DD3B62087D8B6005E7A99 /* SalarioPorHoraEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalarioPorHoraEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6DD381208760CE005E7A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6DD37B208760CE005E7A99 = {
+			isa = PBXGroup;
+			children = (
+				BE6DD386208760CE005E7A99 /* ConstrutoraPredios */,
+				BE6DD385208760CE005E7A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6DD385208760CE005E7A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD384208760CE005E7A99 /* ConstrutoraPredios */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6DD386208760CE005E7A99 /* ConstrutoraPredios */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD387208760CE005E7A99 /* main.swift */,
+				BE6DD38E208762E4005E7A99 /* PessoaProtocol.swift */,
+				BE6DD3B32087D226005E7A99 /* Venda */,
+				BE6DD3B02087801B005E7A99 /* Connstrução */,
+				BE6DD3A320876B65005E7A99 /* Enums */,
+				BE6DD39C20876617005E7A99 /* Profissionais */,
+			);
+			path = ConstrutoraPredios;
+			sourceTree = "<group>";
+		};
+		BE6DD39C20876617005E7A99 /* Profissionais */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD39020876454005E7A99 /* ProfissionalProtocol.swift */,
+				BE6DD392208764F4005E7A99 /* Arquiteto.swift */,
+				BE6DD39420876583005E7A99 /* Engenheiro.swift */,
+				BE6DD3A120876B17005E7A99 /* Empregado.swift */,
+			);
+			path = Profissionais;
+			sourceTree = "<group>";
+		};
+		BE6DD3A320876B65005E7A99 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD3A420876B93005E7A99 /* EmpregadoEnum.swift */,
+				BE6DD3A620876CF0005E7A99 /* HorasPorDiaEnum.swift */,
+				BE6DD3AA20877B9E005E7A99 /* FaseConstrucaoEnum.swift */,
+				BE6DD3B62087D8B6005E7A99 /* SalarioPorHoraEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BE6DD3B02087801B005E7A99 /* Connstrução */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD39F2087694E005E7A99 /* Empreiteira.swift */,
+				BE6DD39D20876881005E7A99 /* Predio.swift */,
+				BE6DD3AE20877E15005E7A99 /* Apartamento.swift */,
+			);
+			name = "Connstrução";
+			path = "Connstrução";
+			sourceTree = "<group>";
+		};
+		BE6DD3B32087D226005E7A99 /* Venda */ = {
+			isa = PBXGroup;
+			children = (
+				BE6DD3B120878060005E7A99 /* Venda.swift */,
+				BE6DD3AC20877C32005E7A99 /* Vendedor.swift */,
+				BE6DD3B42087D240005E7A99 /* Cliente.swift */,
+			);
+			path = Venda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6DD383208760CE005E7A99 /* ConstrutoraPredios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6DD38B208760CE005E7A99 /* Build configuration list for PBXNativeTarget "ConstrutoraPredios" */;
+			buildPhases = (
+				BE6DD380208760CE005E7A99 /* Sources */,
+				BE6DD381208760CE005E7A99 /* Frameworks */,
+				BE6DD382208760CE005E7A99 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConstrutoraPredios;
+			productName = ConstrutoraPredios;
+			productReference = BE6DD384208760CE005E7A99 /* ConstrutoraPredios */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6DD37C208760CE005E7A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Academy;
+				TargetAttributes = {
+					BE6DD383208760CE005E7A99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE6DD37F208760CE005E7A99 /* Build configuration list for PBXProject "ConstrutoraPredios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE6DD37B208760CE005E7A99;
+			productRefGroup = BE6DD385208760CE005E7A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6DD383208760CE005E7A99 /* ConstrutoraPredios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6DD380208760CE005E7A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6DD393208764F4005E7A99 /* Arquiteto.swift in Sources */,
+				BE6DD39120876454005E7A99 /* ProfissionalProtocol.swift in Sources */,
+				BE6DD39E20876881005E7A99 /* Predio.swift in Sources */,
+				BE6DD38F208762E4005E7A99 /* PessoaProtocol.swift in Sources */,
+				BE6DD388208760CE005E7A99 /* main.swift in Sources */,
+				BE6DD3AF20877E15005E7A99 /* Apartamento.swift in Sources */,
+				BE6DD3A220876B17005E7A99 /* Empregado.swift in Sources */,
+				BE6DD3A520876B93005E7A99 /* EmpregadoEnum.swift in Sources */,
+				BE6DD3B220878060005E7A99 /* Venda.swift in Sources */,
+				BE6DD3AB20877B9E005E7A99 /* FaseConstrucaoEnum.swift in Sources */,
+				BE6DD39520876583005E7A99 /* Engenheiro.swift in Sources */,
+				BE6DD3A02087694E005E7A99 /* Empreiteira.swift in Sources */,
+				BE6DD3AD20877C32005E7A99 /* Vendedor.swift in Sources */,
+				BE6DD3A720876CF0005E7A99 /* HorasPorDiaEnum.swift in Sources */,
+				BE6DD3B72087D8B6005E7A99 /* SalarioPorHoraEnum.swift in Sources */,
+				BE6DD3B52087D240005E7A99 /* Cliente.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE6DD389208760CE005E7A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6DD38A208760CE005E7A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BE6DD38C208760CE005E7A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BE6DD38D208760CE005E7A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6DD37F208760CE005E7A99 /* Build configuration list for PBXProject "ConstrutoraPredios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6DD389208760CE005E7A99 /* Debug */,
+				BE6DD38A208760CE005E7A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6DD38B208760CE005E7A99 /* Build configuration list for PBXNativeTarget "ConstrutoraPredios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6DD38C208760CE005E7A99 /* Debug */,
+				BE6DD38D208760CE005E7A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6DD37C208760CE005E7A99 /* Project object */;
+}
